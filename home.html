@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+    <!-- CSS / FONTAWESOME -->
+
+    <link rel="stylesheet" href="css/home.css" />
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+
+
+
+    <title>Home</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="row shadow-sm">
+                <div class="col-4 d-flexjustify-content-center"> <img src="/img/logo_infoprod.png" alt=""> </div>
+                <div class="col-4 d-flex justify-content-center"> <img src="/img/logo_mdp_linea.png" alt=""> </div>
+                <div class="col-4 d-flex justify-content-center ps-5">
+                    <button class="btn btn-user" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                        <img src="/img/userIcon2.png" class="imgIcon" alt="">
+                    </button>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- MENU LATERAL -->
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <h5 id="offcanvasRightLabel">Denise Friedenbach</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <hr>
+                <a href="">
+                    <p>Cambiar contraseña</p>
+                </a>
+                <a href="">
+                    <p>Términos y Condiciones</p>
+                </a>
+                <a href="">
+                    <p>Políticas de Privacidad</p>
+                </a>
+                <hr>
+                <a href="">
+                    <p>Cerrar Sesión</p>
+                </a>
+
+
+                <span class="derechos"> v.1.1.6-pre.1 <br>
+                    Copyright 2020 - Presidencia de la Nación
+                    Argentina. Todos los derechos reservados.</span>
+            </div>
+        </div>
+
+        <div class="container">
+
+
+            <!-- BUSCADOR -->
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 my-4 my-md-5 px-4 p-md-0">
+                    <form action="" class="navbar-form navbar-right">
+                        <div class="input-group">
+                            <input type="search" id="buscador" placeholder="Buscar..." class="form-control" />
+                            <div class="input-group-btn">
+                                <button class="btn btn-search">
+                                    <span><i class="fas fa-search p-2 text-white"></i></span>
+                                </button>
+
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <!--LISTADO SECCIONES -->
+
+                <div class="table-responsive seccionesMenu">
+                    <div class="d-flex justify-content-center">
+                        <ul class="d-flex list-unstyled">
+                            <li class="px-4"><span class="borderLink">SEPYME</span> </li>
+                            <li class="px-4">SCI</li>
+                            <li class="px-4">SM</li>
+                            <li class="px-4">SGA</li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--CARD DOBLE CONTENIDO Y TODOS LOS BOTONES -->
+
+            <div class="container my-3">
+
+                <div class=" card mb-3">
+                    <div class="card-header bg-info text-white border-info">
+                        Plan Estratégico para el Desarrollo Minero Argentino - Memoria Viva
+                    </div>
+
+                    <div class="row card-body text-black d-flex">
+
+                        <div class="col-7">
+                            <h5 class="card-title">MINERÍA/ PDMA</h5>
+                        </div>
+                        <div class="col-5 px-0">
+                            <p class="card-title ps-5">12/03/21</p>
+                        </div>
+
+                    </div>
+
+                    <div class="row card-body text-black d-flex justify-content-center">
+
+                        <div class="col">
+                            <p>Documento de presentación del PDMA realizado por la
+                                Mesa Facilitadora del proyecto.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="row card-body text-black d-flex justify-content-center">
+
+                        <div class="col text-center">
+                            <button class="btn expandBtn rounded-pill px-3 mx-2" data-bs-toggle="collapse"
+                                data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                <i class="fas fa-chevron-down "></i>
+                            </button>
+                            <button class="btn linkBtn rounded-pill px-3 mx-2"> <i class="fas fa-link"></i> </button>
+                            <button class="btn pdfBtn rounded-pill px-3 mx-2"><i class="far fa-file-pdf"></i> </button>
+                            <button class="btn whatsappBtn rounded-pill px-3 mx-2"> <i class="fab fa-whatsapp"
+                                    id="btnWhatsapp"></i> </button>
+                        </div>
+
+                    </div>
+
+                    <!--Ejemplo contenido oculto -->
+                    <div class="card-body collapse" id="collapseExample">
+                        <p> Informe semanal de coyuntura minera con novedades de la actividad a nivel nacional e
+                            internacional correspondiente a la semana del 19 de febrero de 2021.</p>
+                    </div>
+
+
+                    <div class="card-footer bg-info border-info"></div>
+                </div>
+
+
+                <!--CARD SIMPLE-->
+                <div class="card mb-3">
+                    <div class="card-header bg-info text-white border-info">
+                        Informe semanal de coyuntura minera
+                    </div>
+
+                    <div class="row card-body text-black d-flex">
+
+                        <div class="col-7">
+                            <h5 class="card-title">MINERÍA/ INDICADORES</h5>
+                        </div>
+                        <div class="col-5 px-0">
+                            <p class="card-title ps-5">12/03/21</p>
+                        </div>
+
+                    </div>
+
+                    <div class="row card-body text-black d-flex justify-content-center">
+
+                        <div class="col">
+                            <p>Informe semanal de coyuntura minera con novedades de la actividad a nivel nacional e
+                                internacional correspondiente a la semana del 19 de febrero de 2021.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="row card-body text-black d-flex justify-content-center">
+
+                        <div class="col text-center">
+
+                            <button class="btn pdfBtn rounded-pill px-3 mx-2"><i class="far fa-file-pdf"></i> </button>
+                            <button class="btn whatsappBtn rounded-pill px-3 mx-2"> <i class="fab fa-whatsapp"
+                                    id="btnWhatsapp"></i> </button>
+                        </div>
+
+                    </div>
+
+
+
+
+                    <div class="card-footer bg-info border-info"></div>
+                </div>
+
+
+                <!--CARD CON IMAGEN-->
+                <div class="card mb-3">
+                    <div class="card-header bg-info text-white border-info text-center">
+                        <!-- IMAGEN CENTRADA EN CABECERA -->
+                        <img src="img/logoMinisterioBlanco.svg" alt="Logo ministerio">
+                    </div>
+
+                    <div class="row card-body text-black d-flex">
+
+                        <div class="col">
+                            <h5 class="card-title">DGTIC - Dirección de Desarrollo de Sistemas - NOVIEMBRE 2021</h5>
+                        </div>
+
+
+                    </div>
+
+                    <div class="row card-body text-black d-flex justify-content-center">
+
+                        <div class="col">
+                            <p> Texto ejemplo con IMAGEN en cabecera - y agregado de IMAGEN en boton con apertura</p>
+                        </div>
+
+                    </div>
+
+                    <div class="row card-body text-black d-flex justify-content-center">
+
+                        <div class="col text-center">
+
+                            <!-- BOTON DE IMAGEN CON APERTURA -->
+                            <button class="btn imgBtn rounded-pill px-3 mx-2" data-bs-toggle="collapse"
+                                data-bs-target="#ejemploImagen" aria-expanded="false" aria-controls="ejemploImagen">
+                                <i class="far fa-file-image"></i> </button>
+                            <button class="btn whatsappBtn rounded-pill px-3 mx-2"> <i class="fab fa-whatsapp"
+                                    id="btnWhatsapp"></i> </button>
+                        </div>
+
+                    </div>
+
+                    <div class="card-body collapse text-center" id="ejemploImagen">
+                        <!-- IMAGEN A MOSTRAR -->
+                        <img src="img/logo_infoprod.png" alt="Logo infoprod">
+                    </div>
+
+
+
+
+                    <div class="card-footer bg-info border-info"></div>
+                </div>
+
+            </div>
+
+
+
+
+
+    </main>
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

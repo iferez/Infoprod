@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@500&display=swap");
+
+* {
+  font-family: "Encode Sans", sans-serif;
+}
+
+html,
+body {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+.shadow-sm {
+  border-bottom: 2px solid #33333326;
+}
+
+/*MENU*/
+
+.userHeader {
+  margin-top: 5px;
+}
+
+.btn-user {
+  border: none;
+  background-color: #ffff;
+  width: 80px;
+  text-align: end;
+}
+
+.dropdown-toggle {
+  color: #ffff;
+}
+
+.dropdown-toggle:hover {
+    color: #50b7b2;
+  }
+
+.container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* CONTENIDO */
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #006666;
+}
+
+.card-header {
+  padding: 25px 20px;
+  transition: 0.3s;
+}
+.card-header:hover {
+  background-color: #50b7b2;
+  cursor: pointer;
+}
+
+.bg-card {
+  background-color: #006666;
+}
+
+.card-body{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+i {
+  font-size: 50px;
+  color: black;
+}
+
+/* FOOTER */
+
+footer {
+  border-top: 2px solid #33333326;
+}
+
+
+
+/* RESPONSIVE */
+
+@media (min-width: 768px) {
+  .infoHeader {
+    margin-left: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .infoHeader {
+    margin-left: 30px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .infoHeader {
+    margin-left: 80px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .infoHeader {
+    margin-left: 300px;
+  }
+}

@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@500&display=swap");
+
+* {
+  font-family: "Encode Sans", sans-serif;
+}
+
+html,
+body {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+.shadow-sm {
+  border-bottom: 2px solid #33333326;
+}
+
+/* MENU USUARIO*/
+
+.btn-user {
+  border: none;
+  background-color: #ffff;
+}
+
+.offcanvas {
+  max-width: 70%;
+  background-color: #50b7b2;
+  color: #ffff;
+}
+
+.offcanvas-header {
+  margin-top: 20px;
+  padding-bottom: 0px;
+}
+
+.offcanvas-header h5 {
+  font-weight: bold;
+}
+
+.offcanvas-body a {
+  color: #ffff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.offcanvas-body a:hover {
+  color: #707070;
+}
+
+.offcanvas-body p {
+  margin: 40px 0px;
+}
+
+.derechos {
+  display: block;
+  margin-top: 55%;
+}
+
+/* BUSCADOR */
+.btn-search {
+  background: #52525277 !important;
+  border-radius: 0px 4px 4px 0px;
+}
+
+.seccionesMenu {
+  color: #2897d4;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.borderLink {
+  border-bottom: 2px solid #50b7b2;
+}
+
+/*CARDS*/
+
+.bg-info {
+  background-color: #2897d4 !important;
+}
+
+.border-info {
+  background-color: #2897d4 !important;
+}
+
+.card-header {
+  font-size: 18px;
+}
+
+.card-title {
+  color: #50b7b2;
+  font-size: 18px;
+}
+
+i {
+  font-size: 18px;
+}
+
+.expandBtn {
+  border: 1px solid #707070;
+  color: #707070;
+}
+.expandBtn:hover {
+  background-color: #7070703d;
+  color: #707070;
+}
+
+.linkBtn {
+  border: 1px solid #1072bb;
+  color: #1072bb;
+}
+.linkBtn:hover {
+  background-color: #1071bb2d;
+  color: #1072bb;
+}
+
+.pdfBtn {
+  border: 1px solid #c62828;
+  color: #c62828;
+}
+.pdfBtn:hover {
+  background-color: #b8331b18;
+  color: #c62828;
+}
+
+.whatsappBtn {
+  border: 1px solid #2e7d33;
+  color: #2e7d33;
+}
+.whatsappBtn:hover {
+  background-color: #2f7d331f;
+  color: #2e7d33;
+}
+
+.imgBtn {
+  border: 1px solid #707070;
+  color: #707070;
+}
+
+.imgBtn:hover {
+  background-color: #7070703d;
+  color: #202020;
+}
+
+/* RESPONSIVE */
+
+@media (min-width: 400px) {
+  .derechos {
+    display: block;
+    margin-top: 80%;
+  }
+
+  i {
+    font-size: 20px;
+  }
+}

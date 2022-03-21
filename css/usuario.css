@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@500&display=swap");
+
+* {
+  font-family: "Encode Sans", sans-serif;
+}
+
+html,
+body {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+.shadow-sm {
+  border-bottom: 2px solid #33333326;
+}
+
+.container-main {
+  width: 80%;
+  margin: auto;
+}
+
+.fa-check-circle {
+  font-size: 40px;
+  color: #006666;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+div.vertical-line {
+  width: 2px;
+  background-color: #7cafaf;
+  height: 100%;
+  float: left;
+  margin-left: 20px;
+}
+
+.hrFin {
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  height: 2px;
+  color: #333333b4;
+}
+
+.btn {
+  font-size: 18px;
+  padding: 10px 40px;
+}
+.btn-success {
+  background-color: #006666;
+}
+
+.btn-success:hover {
+  background-color: #7db0b0;
+}
+
+.btn-secondary {
+  background-color: #525252;
+}
+
+.btn-secondary:hover {
+  background-color: #a6a6a6;
+}
+
+
+@media (min-width: 992px) {
+    .container-main {
+        width: 40%;
+        margin: auto;
+      }
+
+     h2{
+         font-size: 24px;
+     }
+     label{
+        font-size: 20px;
+     }
+  }
